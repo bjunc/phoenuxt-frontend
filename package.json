@@ -13,7 +13,12 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "@absinthe/socket-apollo-link": "^0.1.11",
+    "@nuxtjs/apollo": "^3.0.4",
+    "apollo-cache-inmemory": "^1.1.9",
+    "graphql-tag": "^2.8.0",
+    "nuxt": "^1.0.0",
+    "websocket": "^1.0.25"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
