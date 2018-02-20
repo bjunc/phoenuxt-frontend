@@ -6,7 +6,8 @@
         phoenuxt
       </h1>
       <h2 class="subtitle">
-        Nuxt.js project
+        <!-- Nuxt.js project -->
+        Welcome {{ $store.state.user.firstName }} {{ $store.state.user.lastName }}!
       </h2>
       <div class="links">
         <a
